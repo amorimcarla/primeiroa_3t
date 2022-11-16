@@ -1,4 +1,3 @@
-
 let tabuada = 1;
 let nome = "carla";
 
@@ -37,7 +36,7 @@ function quadrado(){
 
 
 
-let tabuada = 1;
+let Tabuada = 1;
 let nome = "carla";
 
 function escreva(){
@@ -79,7 +78,7 @@ function calcula(){
     document.write("resultado: " + r);
 }
 
-let op = "";
+let operacao = "";
 function operacao(ope){
   op = ope;
 }
@@ -101,7 +100,7 @@ function calcule(){
         r = Number(v1) / Number(v2);
     }
 
-
+    let a = document.getElementById("a").value;
     document.getElementById("resultado").innerHTML = r;
 
 
@@ -245,4 +244,3 @@ function calcule(){
     document.getElementById("resultado").innerHTML = r;
 
 }
-
